@@ -18,7 +18,6 @@ Quick start <br> <br>
 ```
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install --upgrade pip
 pip install biocrnpyler=1.1.1 jupyter numpy pandas matplotlib scipy
 ```
 or 
