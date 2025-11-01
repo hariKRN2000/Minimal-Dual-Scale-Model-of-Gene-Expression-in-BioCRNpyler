@@ -15,7 +15,8 @@ NOTE: Open the notebook first; it is self-contained and annotated. <br> <br>
 Quick start <br> <br>
 1) Create an environment (any one option) <br>
 
-```python -m venv .venv
+```
+python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install --upgrade pip
 pip install biocrnpyler jupyter numpy pandas matplotlib scipy
