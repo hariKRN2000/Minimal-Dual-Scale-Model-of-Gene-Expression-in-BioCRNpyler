@@ -6,9 +6,9 @@ This repository accompanies the chapter **Gene Expression Across Growth Stages (
 
 ## Repository Structure
 .
-├─ building_dual_scale_model_bioCRNpyler_tutorial.ipynb   # Step-by-step tutorial
-├─ experimental_data.csv                                  # Example dataset used in the notebook
-└─ README.md                                              # You are here
+├─ building_dual_scale_model_bioCRNpyler_tutorial.ipynb   # Step-by-step tutorial <br>
+├─ experimental_data.csv                                  # Example dataset used in the notebook <br>
+└─ README.md                                              # You are here <br>
 
 NOTE: Open the notebook first; it is self-contained and annotated. <br> <br>
 
@@ -19,8 +19,16 @@ Quick start <br> <br>
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install --upgrade pip
-pip install biocrnpyler jupyter numpy pandas matplotlib scipy
+pip install biocrnpyler=1.1.1 jupyter numpy pandas matplotlib scipy
 ```
+or 
+
+```
+conda create -n dualscale python=3.11 -y
+conda activate dualscale
+pip install biocrnpyler=1.1.1 jupyter numpy pandas matplotlib scipy
+```
+
 
 
 
