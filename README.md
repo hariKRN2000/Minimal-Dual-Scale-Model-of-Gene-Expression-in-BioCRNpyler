@@ -5,7 +5,7 @@ This repository accompanies the chapter **Gene Expression Across Growth Stages (
 ---
 
 ## Repository Structure
-.
+
 ├─ building_dual_scale_model_bioCRNpyler_tutorial.ipynb   # Step-by-step tutorial <br>
 ├─ experimental_data.csv                                  # Example dataset used in the notebook <br>
 └─ README.md                                              # You are here <br>
